@@ -1,4 +1,8 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication1._Default" %>
+<%@ Register Src="~/Menu.ascx" TagPrefix="my" TagName="menu"  %>
+
+
+
 
 <asp:Content ID="Content1" runat="server" contentplaceholderid="MainContent">
     <asp:Label ID="Label1" runat="server" Text="Home" Font-Size ="30pt"></asp:Label>
@@ -14,6 +18,8 @@
         <br />
         <br />
         <br />
+
     </asp:Panel>
+        <my:menu runat="server"/>
 </asp:Content>
 

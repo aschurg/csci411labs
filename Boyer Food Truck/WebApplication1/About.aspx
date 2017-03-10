@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="WebApplication1.About" %>
+<%@ Register Src="~/Menu.ascx" TagPrefix="my" TagName="menu"  %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h3>Get to know us!</h3>
@@ -11,4 +12,6 @@
     <br />
     <br />
     <br />
+    
+    <my:menu runat="server"/>
 </asp:Content>

@@ -1,7 +1,8 @@
-﻿ <%@ Page Title="Menu" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="WebApplication1.Contact" %>
+﻿<%@ Page Title="Menu" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="WebApplication1.Contact" %>
+
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:Panel ID="Panel1" runat="server" Height="711px" Width="885px">
+    <asp:Panel ID="Panel1" runat="server" Height="711px" Width="885px" >
         <asp:Panel ID="Panel2" runat="server" Height="495px" Width="879px">
             <asp:Label ID="Label1" runat="server" Font-Size="30pt" Text="Our delicious menu"></asp:Label>
             <asp:Image ID="Image1" runat="server" Height="431px" ImageUrl="Images/menu.png" Width="835px" />
