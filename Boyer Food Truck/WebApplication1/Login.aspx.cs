@@ -13,5 +13,19 @@ namespace WebApplication1
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            DataInsert myInsert = new DataInsert();
+            int value = myInsert.authenticateUser(TextBox1.Text, TextBox2.Text);
+
+            if(value == 1)
+            { 
+                Response.Redirect("orders.aspx");
+
+            }
+
+
+        }
     }
 }

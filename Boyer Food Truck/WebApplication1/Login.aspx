@@ -8,6 +8,6 @@
         <br />
         <br />
         <br />
-        <asp:Button ID="Button1" runat="server" Text="Login" Width="318px" />
+        <asp:Button ID="Button1" runat="server" Text="Login" Width="318px" OnClick="Button1_Click" />
     </asp:Panel>
 </asp:Content>

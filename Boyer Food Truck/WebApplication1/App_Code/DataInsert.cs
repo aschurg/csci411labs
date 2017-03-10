@@ -54,4 +54,32 @@ public class DataInsert
 
         return hashedDataBytes;
     }
+
+    public int InsertUser(string username, string pwd)
+
+    {
+        DataAccess myAccess = new DataAccess();
+        SqlParameter[] parameters = new SqlParameter[2];
+
+        parameters[0] = new SqlParameter("username", username);
+        parameters[1] = new SqlParameter("pwd", encrypt(pwd));
+
+        string query = "spInsertUser";
+        int rows = myAccess.nonQuery(query, parameters);
+        return rows;
+    }
+
+    public int authenticateUser(string username, string pwd)
+
+    {
+        DataAccess myAccess = new DataAccess();
+        SqlParameter[] parameters = new SqlParameter[2];
+
+        parameters[0] = new SqlParameter("username", username);
+        parameters[1] = new SqlParameter("pwd", encrypt(pwd));
+
+        string query = "spAuthenticateUser";
+        int rows = myAccess.executeScalar(query, parameters);
+        return rows;
+    }
 }
