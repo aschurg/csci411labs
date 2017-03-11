@@ -1,10 +1,10 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication1._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication1._Default" %>
 <%@ Register Src="~/Menu.ascx" TagPrefix="my" TagName="menu"  %>
 
 
 
 
-<asp:Content ID="Content1" runat="server" contentplaceholderid="MainContent">
+<asp:Content ID="Content1" runat="server" contentplaceholderid="ContentPlaceHolder1">
     <asp:Label ID="Label1" runat="server" Text="Home" Font-Size ="30pt"></asp:Label>
     <asp:Panel ID="Panel1" runat="server" BorderStyle="None" Height="341px" Wrap="False">
         <br />

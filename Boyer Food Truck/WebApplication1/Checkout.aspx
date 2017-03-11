@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Checkout.aspx.cs" Inherits="WebApplication1.Checkout" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Checkout.aspx.cs" Inherits="WebApplication1.Checkout"%>
 
 <!DOCTYPE html>
 
@@ -21,7 +21,7 @@
         <asp:Image ID="Image1" runat="server" Height="320px" ImageUrl="Images/roll.png" Width="180px" />
         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="contact.aspx">Order more items</asp:HyperLink>
 &nbsp;or
-        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="orders.aspx">view all orders!</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="login.aspx">Login to view all orders!</asp:HyperLink>
     </form>
 </body>
 </html>

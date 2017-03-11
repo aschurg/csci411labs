@@ -11,7 +11,17 @@
 <body>
     <form id="form1" runat="server">
     <div>
+        <a href="Default.aspx">Home</a>
+        &nbsp;
+        <a href="About.aspx">About</a>
+        &nbsp;
+        <a href="Contact.aspx">Menu</a>
+        &nbsp;
+        <a href="Login.aspx">Login</a>
+        &nbsp;
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+         
         
         </asp:ContentPlaceHolder>
     </div>
