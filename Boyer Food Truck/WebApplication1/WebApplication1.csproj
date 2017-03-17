@@ -219,6 +219,7 @@
     <Content Include="Menu.ascx" />
     <Content Include="orders.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="MenuService.asmx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
@@ -464,6 +465,10 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuService.asmx.cs">
+      <DependentUpon>MenuService.asmx</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
