@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<news>
+  <article id="art01" img="Images/gettyimages-654251688.jpg">
+    <title>Day 1 of March Madness Was Weirdly Normal</title>
+    <author>Neil Paine</author>
+    <date>March 17, 2017 10:06 AM</date>
+    <publisher>FiveThirtyEight</publisher>
+    <content>
+      The first day of March Madness was anything but mad.
+      Better-seeded teams went 14-2 on the day, and even the “surprises” were relatively easy to see coming: The higher-seeded teams’ two losses came at the hands of Middle Tennessee State (the South’s No. 12 seed) and Xavier (No. 11 in the West), both of which were among the most popular upset picks of the first round. (Our March Madness predictions had each game as a toss-up.) All told, the NCAA hadn’t seen a chalkier opening day since 2000, when the superior seeds went 15-1 after the tournament launched.
+
+      That kind of normalcy is not why we tune in to the tournament! Annoyed that I watched 12 consecutive hours of basketball with so little chaos to show for it, I started to wonder whether we have overblown expectations of unpredictability in March Madness. Are most days actually like Thursday, but we only remember the last-second shots and the scrappy Cinderellas?
+
+      No — Thursday really was different.
+      This year featured 2.2 fewer upsets than expected, which makes it second only to 2000 in terms of uneventful opening days during the tournament’s 64-team era. To get those numbers, I looked at the historical upset rates for each seed,1 taking into account which games were played on Thursday.
+
+      But despite their disappointing record, underdogs kept the score relatively close in 2017’s opening-day games. In terms of average scoring margin, this year tied for the ninth-most-respectable showing by worse-seeded teams on an opening day of the tournament — on par with days where fans saw six or seven upsets.
+
+      In other words, a lucky bounce here or there could have made all the difference for Thursday’s long shots. Maybe that means good, old-fashioned madness will be restored to its rightful place on Day 2 of the tourney. Then again, analyzing other second-day games using the same method as above suggests that Friday should be less upset-y (3.9 expected upsets) than Thursday was supposed to be. Somebody free us from this prison of predictability!
+    </content>
+  </article>
+
+  <article id="art02" img="Images/usa_today_9951280.jpg">
+    <title>March Madness bracket 2017: Wichita State wreaks havoc on Dayton</title>
+    <author>Richard Johnson</author>
+    <date> Mar 17, 2017, 10:12pm EDT</date>
+    <publisher>SB Nation</publisher>
+    <content>
+      If you don’t know about the Wichita State Shockers, then you better ask somebody. That No. 10 seed next to their name is a little bit of a misnomer because these guys can play. The Dayton Flyers figured that out in their 64-58 loss.
+
+      The Shockers now head to the second round of the tournament with a continued underdog mentality thinking the committee didn’t believe in them and that they were undervalued and underseeded. Wichita State has won at least one game in the NCAA tournament for the fifth consecutive year.
+      The Kansas Jayhawks crushed the UC Davis Aggies, 100-62, to ensure that a No. 1 seed won’t lose to a No. 16, again. The Duke Blue Devils also dispatched of Troy, 87-65. The Cincinnati Bearcats, meanwhile, boat raced the Kansas State Wildcats, 75-61.
+
+      Friday’s full schedule is below (all times Eastern)
+      You can stream every game in the tournament on NCAA.com, and the TV destinations for each game are listed alongside them on this schedule.
+
+      Michigan Wolverines def. Oklahoma State Cowboys, 92-91
+
+      Baylor Bears def. New Mexico State Aggies, 91-73
+
+      Arkansas Razorbacks def. Seton Hall Pirates, 77-71
+
+      Oregon Ducks def. Iona Gaels, 93-77
+
+      Louisville Cardinals def. Jacksonville State Gamecocks, 78-63
+
+      USC Trojans def SMU Mustangs, 66-65
+
+      North Carolina Tar Heels def. Texas Southern Tigers, 103-64
+
+      Rhode Island Rams def. Creighton Bluejays, 84-72
+
+      Kansas Jayhawks def. UC Davis Aggies, 100-62
+
+      Wichita State Shockers def. Dayton Flyers, 64-58
+
+      Duke Blue Devils def. Troy Trojans, 87-65
+
+      Cincinnati Bearcats def. Kansas State Wildcats, 75-61
+
+      Miami vs. Michigan State: approx. 9:20 p.m., TNT (Tulsa)
+
+      Kentucky vs. Northern Kentucky: approx. 9:40 p.m., CBS (Indianapolis)
+
+      South Carolina vs. Marquette: approx. 9:50 p.m., TBS (Greenville)
+
+      UCLA vs. Kent State: approx. 9:57 p.m., truTV (Sacramento)
+    </content>
+  </article>
+</news>

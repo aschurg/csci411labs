@@ -17,4 +17,6 @@
             </asp:DropDownList>
             Please select an option then press &quot;Submit order.&quot;</asp:Panel>
     </asp:Panel>
+<asp:Xml ID="Xml1" runat="server" DocumentSource="~/App_Data/Stories.xml" TransformSource="~/App_Data/Stories.xslt"></asp:Xml>
+
 
