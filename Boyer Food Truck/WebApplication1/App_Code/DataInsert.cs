@@ -82,4 +82,18 @@ public class DataInsert
         int rows = myAccess.executeScalar(query, parameters);
         return rows;
     }
+
+    public int InsertComment(string text)
+
+    {
+        DataAccess myAccess = new DataAccess();
+        SqlParameter[] parameters = new SqlParameter[1];
+
+        parameters[0] = new SqlParameter("text",text);
+        
+
+        string query = "spInsertComment";
+        int rows = myAccess.nonQuery(query, parameters);
+        return rows;
+    }
 }

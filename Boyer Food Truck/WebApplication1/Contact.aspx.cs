@@ -16,38 +16,5 @@ namespace WebApplication1
             
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            int value = int.Parse(DropDownList1.SelectedValue);
-            string name = "";
-            string cust = "";
-            if(value == 1)
-            {
-                name = "Dynamite roll";
-            }
-            else if(value == 2)
-            {
-                name = "Rainbow roll";
-            }
-            else if(value == 3)
-            {
-                name = "Spicy Tuna roll";
-            }
-            else if(value == 4)
-            {
-                name = "Mango Tango roll";
-            }
-
-            DataInsert myInsert = new DataInsert();
-            myInsert.InsertOrder(value, name);
-
-            cust = TextBox1.Text;
-
-            myInsert.InsertCustomer(cust);
-
-            Response.Redirect("Checkout?" + "value=" + value + "&" + "name=" + cust);
-
-        }
-
     }
 }
